@@ -7,20 +7,21 @@ Time spent: **16** hours spent in total
 
 The following **required** functionalities are completed:
 
-* [✔] Top navigation bar with dropdown buttons
-* [✔] Banner with background image, white text, and a green button
-* [✔] Color or text change when mouse hovers over
-* [✔] At least 3 different body sections with different background images or colors
-* [✔] 2 (or 3) card items per row in a body section
-* [✔] Footer with social icons that link to the actual social pages
+* [✔] Responsive for any screen (desktop, laptop, tablet, phone) with Bootstrap.
+* [✔] Have at least 2 pages:
+        - 1 main overview page (index.html) like the Bootstrap blog example or ideas above.
+        - 1 blog page with at least a picture and a paragraph. If you don't have any picture, you can use https://placeimg.com/ for img           and https://www.lipsum.com/ for dummy text.
+* [✔] Use Bootstrap grid system (container > row > col) to layout and align content.
+* [✔] Navigation on header and social icons (twitter, instagram, github, linkedin, facebook, etc.) on footer.
+* [✔] Carousel for the banner image (example: [activello]https://colorlib.com/activello/ or dazzling)
+* [✔] At least 2 cards for featured posts.
 
 The following **optional** features are implemented:
 
-* [✔] Add favicon to the page
-* [✔] Animation on an element
-* [✔] Navigation, contact, sitemap, privacy policy, term of use, etc in footer
-* [✔] Bootstrap carousel for banner
-* [X] Banner with background video
+* [X] Add a breadcrumb on the child page to easily go back to the main page.
+* [✔] Include a 'Get in touch' form with at least name, email and message fields for guests to submit enquiries.
+* [✔] Add a modal component (e.g. when clicing on a button or a hyperlink).
+* [✔] Add a dropdown on top navigation.
 
 The following **additional** features are implemented:
 
@@ -30,7 +31,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<video autoplay="" loop="" class="" style="max-width: 100%; min-height: 372px;"><source type="video/mp4" src="//i.imgur.com/nfEhxYR.mp4"></video>
+Story Walkthrough: https://imgur.com/a/mHui7N9
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
