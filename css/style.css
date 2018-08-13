@@ -1,0 +1,274 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: normal;
+    word-spacing: normal;
+    font-size: 15pt;
+    color: #1e1e1e;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+#logo-triangle {
+    width: 50px;
+    height: 50px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid #ec4c4c;
+}
+
+#logo-square {
+    width: 50px;
+    height: 50px;
+    background-color: #f8fc74;
+}
+
+#logo-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #8dcaff;
+    border-radius: 50%;
+}
+
+#logo-line {
+    margin-left: -10px;
+    margin-top: 20px;
+    padding-top: 10px;
+    width: 50px;
+    background-color: #000;
+    transform: rotate(55deg)
+}
+
+header .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .row .col {
+    max-width: 52px !important;
+}
+
+#logo-img img {
+    width: 250px;
+}
+
+.form-control {
+    width: 200px !important;
+}
+
+#comment-area .form-control {
+    width: 680px !important;
+}
+
+#get-info-card .form-control {
+    width: 300px !important;
+}
+
+.navbar-nav form {
+    max-width: 100%;
+}
+
+.fixed-width {
+    width: max-content;
+}
+
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1030;
+    width: 100%;
+}
+
+.navbar .nav-item a {
+    color: #fff;
+}
+
+#bg-hero-01 {
+    background-image: url(../img/Philippines2.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-hero-02 {
+    background-image: url(../img/Indo1.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-hero-03 {
+    background-image: url(../img/Myanmar1.jpg);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#philippines-hero {
+    background-image: url(../img/Philippines2.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#blog-1-hero {
+    background-image: url(../img/Phil_thumbnail.jpg);
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button1 {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.button1:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.bouncy {
+    animation: bouncy 2s infinite linear;
+    position: relative;
+}
+
+@keyframes bouncy {
+    0% {
+        top: 0em
+    }
+    40% {
+        top: 0em
+    }
+    43% {
+        top: -0.9em
+    }
+    46% {
+        top: 0em
+    }
+    48% {
+        top: -0.4em
+    }
+    50% {
+        top: 0em
+    }
+    100% {
+        top: 0em;
+    }
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black;
+}
+
+.text-shadow:hover {
+    position: relative;
+    top: -3px;
+    left: -3px;
+    text-shadow: 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black;
+    cursor: pointer;
+}
+
+.dark-text {
+    color: #000 !important;
+}
+
+.nav-item {
+    color: #000 !important;
+}
+
+.blog-thumbnail {
+    height: 250px;
+}
+
+.avatar img {
+    height: 250px;
+}
+
+.fixed-height {
+    height: 785px;
+}
+
+.box-height {
+    height: 350px !important;
+}
+
+.h2-supersize {
+    font-size: 10em;
+}
+
+.h2-largesize {
+    font-size: 7em;
+}
+
+.floating-subscribe {
+    position: fixed;
+    bottom: 350px;
+    right: 0;
+    z-index: 99;
+    outline: none;
+}
+
+.talk-bubble {
+    display: block;
+    opacity: 1;
+    transition-duration: 0ms;
+    position: relative;
+    width: 180px;
+    height: auto;
+    background-color: #fff;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
+.modal .form-control {
+    width: 250px !important;
+}
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+.small-text {
+    font-size: 15px !important;
+}
+
+.medium-text {
+    font-size: 17px !important;
+}
+
+#about-us-card {
+    background-color: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) !important;
+}
+
+#related-articles .img-thumbnail {
+    max-width: 45%;
+    height: auto
+}
