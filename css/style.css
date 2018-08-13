@@ -64,11 +64,11 @@ header .container .row .col {
 }
 
 #comment-area .form-control {
-    width: 680px !important;
+    width: 100% !important;
 }
 
 #get-info-card .form-control {
-    width: 300px !important;
+    width: 100% !important;
 }
 
 .navbar-nav form {
