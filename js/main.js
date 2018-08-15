@@ -1,3 +1,9 @@
+var $hamburger = $(".hamburger");
+$hamburger.on("click", function (e) {
+  $hamburger.toggleClass("is-active");
+  // Do something else, like open/close menu
+});
+
 $(document).ready(function () {
 
   $(window).scroll(function () {
@@ -40,12 +46,4 @@ $(document).ready(function () {
     }, 500);
     return false;
   });
-});
-// Look for .hamburger
-var hamburger = document.querySelector(".hamburger");
-// On click
-hamburger.addEventListener("click", function () {
-  // Toggle class "is-active"
-  hamburger.classList.slideToggle("is-active");
-  // Do something else, like open/close menu
 });
